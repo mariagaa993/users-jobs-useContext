@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navbar.scss';
-import Home from '../pages/Home';
 import JobPage from '../pages/JobPage';
 import UserPage from '../pages/UserPage';
 import iconNav from './icon-nav.svg';
@@ -12,14 +11,12 @@ const Navbar = () => {
           	<nav className="nav">
           		<ul>
 				  	<li><img className="icon-nav" src={iconNav} /></li>
-            		<li><Link className="link" to="/">Home</Link></li>
             		<li><Link className="link" to="/users">Users</Link></li>
 					<li><Link className="link" to="/jobs">Jobs</Link></li>
           		</ul>
         	</nav>
         
       		<Switch>
-      			<Route path="/" exact> <Home /> </Route>
 				<Route path="/users"> <UserPage /> </Route>
           		<Route path="/jobs"> <JobPage /> </Route>
         	</Switch>
