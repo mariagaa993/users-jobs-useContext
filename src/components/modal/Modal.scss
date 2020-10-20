@@ -1,0 +1,71 @@
+.overlay {
+    background-color: rgba(0,0,0, 0.5);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.modal {
+    background: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    left: calc(50vw - 300px);
+    padding: 15px;
+    position: fixed;
+    top: 10vw;
+    width: 600px;
+    z-index: 100;
+    header {
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        .modal-title {
+            margin : 0;
+        }
+    }
+    .close-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        img {
+            width: 18px;
+        }
+    }
+    .modal-content {
+        padding: 15px;
+        input, select {
+            border: 1px solid rgba(0,0,0,.250);
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 20px;
+            padding: 13px 13px 13px 8px;
+            width: 100%;
+            &:focus {
+                outline: 1px solid rgba(0,0,0,.2);
+            }
+        }
+        .button-modal {
+            background-color: #C05858;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            outline: none;
+            padding: 13px;
+            text-transform: uppercase;
+            transition: .3s linar;
+            width: 100%;
+            &:hover {
+                background-color: lighten(#C05858, 20);
+            }
+        }
+    }
+}
