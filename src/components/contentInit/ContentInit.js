@@ -1,5 +1,4 @@
 import React from "react";
-import './ContentInit.scss';
 
 const ContentInit = ({ children }) => {
     return(

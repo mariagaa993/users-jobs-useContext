@@ -19,9 +19,9 @@ const Navbar = () => {
         	</nav>
         
       		<Switch>
-      			<Route path="/" exact> <Home /> </Route>
-				<Route path="/users"> <UserPage /> </Route>
-          		<Route path="/jobs"> <JobPage /> </Route>
+      			<Route path="/" exact component={Home}></Route>
+				<Route path="/users" component={UserPage}></Route>
+          		<Route path="/jobs" component={JobPage}></Route>
         	</Switch>
         </Router>
     );
