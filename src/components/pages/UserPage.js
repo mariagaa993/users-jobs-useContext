@@ -59,11 +59,11 @@ const UserPage = () => {
                     <Table headers={["Name", "Avatar", "Job Title", "Actions"]}>
                         {
                             users.map(user => {
-                                const job = jobs.find(job => job.id == user.jobId) || { name: "Not Found" };
+                                const job = jobs.find(job => job.id === user.jobId) || { name: "Not Found" };
                                 return (
                                     <tr key={user.id}>
                                         <td>{user.name}</td>
-                                        <td><img className="avatar-img" src={user.avatar} /></td>
+                                        <td><img className="avatar-img" src={user.avatar} alt="Avatar" /></td>
                                         <td>{job.name}</td> 
                                         <td>
                                             <button

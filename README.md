@@ -1,12 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## A Simple Users and Jobs App
 
-This is a simple users and jobs app. There is the "users section"<br />
-where you can add new users, modify or delete. There is also the<br />
-"jobs section" where you can edit and delete. For the application<br /> 
-use the hooks: useState, useReducer and useContext.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
+The application is only available for Desktop.💖
 
-The application is only available for Desktop and<br /> 
-you can see it here: https://mariagaa993.github.io/users-jobs-useContext/ 💖
+## What does the app do? 
+
+- Users Section:
+    - Add new users
+    - Edit user
+    - Delete user
+
+- Jobs Section:
+    - Edit job
+    - Delete job
+
+## Was used to create the app: 
+
+- UseState
+- UseReducer
+- UseContext.
+- React-router
+- Axios
+- SASS
+
+![Homepage](homepage.png)
+
+## Authors
+
+- Maria Gabriela Alarcon - [mariagaa993@gmail.com](mailto:mariagaa993@gmail.com)
 
 ## Available Scripts
 

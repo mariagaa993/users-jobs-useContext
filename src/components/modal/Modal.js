@@ -13,7 +13,7 @@ const Modal = ({ title, children, close }) => {
                         className="close-button"
                         type="button" 
                         onClick={close}>
-                        <img src={closeButton} />
+                        <img src={closeButton} alt="Close" />
                         </button>
                 </header>
                 <article className="modal-content">
