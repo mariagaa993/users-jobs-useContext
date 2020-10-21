@@ -6,7 +6,7 @@ The application is only available for Desktop.💖
 ## What does the app do? 
 
 - Users Section:
-    - Add new users
+    - Add new user
     - Edit user
     - Delete user
 
@@ -18,10 +18,12 @@ The application is only available for Desktop.💖
 
 - UseState
 - UseReducer
-- UseContext.
+- UseContext
 - React-router
 - Axios
 - SASS
+
+## Homepage
 
 ![Homepage](homepage.png)
 
