@@ -9,19 +9,19 @@ The application is only available for Desktop.💖
     - Add new user
     - Edit user
     - Delete user
-
 - Jobs Section:
     - Edit job
     - Delete job
 
 ## Was used to create the app: 
 
-- UseState
-- UseReducer
-- UseContext
+- React Hooks
+    - UseState  
+    - UseReducer
+    - UseContext
 - React-router
 - Axios
-- SASS
+- SASS/scss
 
 ## Homepage
 
